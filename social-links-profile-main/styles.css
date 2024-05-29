@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+html, body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: hsl(0, 0%, 8%);
+    color: white;
+    align-items: center;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 40%;
+    background-color: hsl(0, 0%, 12%);
+    color: white;
+    margin: 0 auto;
+}
+
+.social-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 80%;
+    color: white;
+}
+
+.social-links button {
+    display: block;
+    width: 100%;
+    margin: 10px auto;
+    padding: 15px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #333; /* Dark background */
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none; /* Remove underline from links  */
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transitions */
+  }
+  
+  .social-links button:hover {
+    background-color: #444; /* Slightly lighter on hover */
+    transform: scale(1.05); /* Slight scaling effect on hover */
+  }
+  
+  .social-links button:active {
+    background-color: #555; /* Even lighter on click */
+    transform: scale(1); /* Reset scaling effect on click */
+  }
+  
+
+.subtitle{
+    color: hsl(75, 94%, 57%);
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.title{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.description{
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+.avatar{
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+}
+
+.attribution{
+    text-align: center;
+    margin-top: 20px;
+}
