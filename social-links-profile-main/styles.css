@@ -1,84 +1,69 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
-html, body{
-    margin: 0;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+*{
+    margin:0;
     padding: 0;
-    font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    font-family: Inter;
+    font-weight: 700;
     background-color: hsl(0, 0%, 8%);
-    color: white;
-    align-items: center;
-}
-
-.form{
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
-    max-width: 40%;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    font-size: 12px;
+}
+
+.body{
     background-color: hsl(0, 0%, 12%);
-    color: white;
-    margin: 0 auto;
+    color: hsl(0, 0%, 100%);
+    width: 350px;
+    padding: 30px;
+    border-radius: 15px;
 }
 
-.social-links {
+img{
+    width: 30%;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+.header{
+    margin-bottom: 5px;
+
+}
+.location{
+    color: hsl(75, 94%, 57%);
+    font-weight: 600;
+    margin-bottom: 20px;
+    font: bold;
+}
+.info{
+    /* font-weight: 400; */
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 15px;
+
+}
+
+.links{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    max-width: 80%;
+}
+
+a{
     color: white;
-}
-
-.social-links button {
-    display: block;
-    width: 100%;
-    margin: 10px auto;
-    padding: 15px;
-    text-align: center;
-    font-size: 16px;
-    font-weight: bold;
-    color: #fff;
-    background-color: #333; /* Dark background */
-    border: none;
+    text-decoration: none;
     border-radius: 10px;
-    cursor: pointer;
-    text-decoration: none; /* Remove underline from links  */
-    transition: background-color 0.3s, transform 0.3s; /* Smooth transitions */
-  }
-  
-  .social-links button:hover {
-    background-color: #444; /* Slightly lighter on hover */
-    transform: scale(1.05); /* Slight scaling effect on hover */
-  }
-  
-  .social-links button:active {
-    background-color: #555; /* Even lighter on click */
-    transform: scale(1); /* Reset scaling effect on click */
-  }
-  
-
-.subtitle{
-    color: hsl(75, 94%, 57%);
-    font-size: 0.8rem;
-    font-weight: 600;
+    background-color: hsl(0, 0%, 20%);
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 10px;
+    transition: 0.5s;
 }
-
-.title{
-    font-size: 1.5rem;
-    font-weight: 600;
-}
-
-.description{
-    font-size: 0.8rem;
-    font-weight: 400;
-}
-
-.avatar{
-    width: 6rem;
-    height: 6rem;
-    border-radius: 50%;
-}
-
-.attribution{
-    text-align: center;
-    margin-top: 20px;
+a:hover
+{
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 8%);
 }
